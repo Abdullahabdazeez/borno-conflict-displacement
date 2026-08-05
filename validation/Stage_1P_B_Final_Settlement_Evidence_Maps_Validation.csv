@@ -1,0 +1,13 @@
+Metric,Value
+Expected settlement records,13
+Mapped settlement records,13
+Unique validation IDs,13
+Expected Borno LGAs,27
+Mapped Borno LGAs,27
+Settlement points inside Borno boundary,13
+Expected final maps,4
+Final maps successfully saved,4
+Settlement GeoPackage saved,True
+LGA summary GeoPackage saved,True
+Map register saved,True
+Stage passed,True

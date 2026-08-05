@@ -1,0 +1,26 @@
+Validation_Metric,Expected_or_Minimum,Observed_Value
+Final map PNG files,4,4
+Final map PDF files,Optional,0
+Publication PNG figures,5,5
+Publication PDF figures,5,5
+Final CSV tables,6,11
+Final report DOCX files,1,1
+Final report PDF files,Optional,0
+Infographic outputs,2,2
+Portfolio outputs,4,4
+GitHub documentation files,5,6
+Project summary files,2,2
+Validation registers,3,42
+GIS data files,Optional,0
+Supporting evidence files,Optional,0
+Required root documentation complete,True,True
+Total package files,35,48
+Total package size bytes,> 0,7125409
+Total package size MB,> 0,7.13
+Empty package files,0,0
+Duplicate relative paths,0,0
+Files sharing duplicate hashes,Informational,8
+Package manifest created,True,True
+SHA256 checksum file created,True,True
+Final deliverables register created,True,True
+Stage passed,True,True

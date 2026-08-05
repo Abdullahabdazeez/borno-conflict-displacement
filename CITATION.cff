@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this project using the metadata below."
+title: "Conflict-Induced Displacement and Settlement Abandonment Detection Using Geospatial Analysis — Borno State, Nigeria (2015–2023)"
+type: dataset
+authors:
+  - family-names: "Abdazeez"
+    given-names: "Abdullah Ayomide"
+date-released: "2026-07-30"
+version: "1.0.0"
+abstract: >
+  An uncertainty-aware geospatial analysis of settlement contraction and potential
+  conflict-induced abandonment across Borno State, Nigeria. The project integrates
+  WorldPop population estimates, Landsat imagery, NDVI, NDBI, built-up indicators,
+  statistical screening and structured manual evidence adjudication.
+keywords:
+  - geospatial analysis
+  - remote sensing
+  - settlement abandonment
+  - conflict displacement
+  - humanitarian GIS
+  - Borno State
+  - Nigeria
+  - Landsat
+  - WorldPop
+license: MIT

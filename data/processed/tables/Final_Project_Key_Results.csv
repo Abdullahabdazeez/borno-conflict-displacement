@@ -1,0 +1,16 @@
+Result_ID,Metric,Value
+KR01,Settlements screened,2455
+KR02,LGAs covered,27
+KR03,Detailed validation cases,13
+KR04,Validation LGAs,6
+KR05,Probable abandonment,5
+KR06,Possible abandonment,1
+KR07,Uncertain,4
+KR08,Not supported,2
+KR09,Reconstruction or reoccupation,1
+KR10,Confirmed abandonment,0
+KR11,Highest-ranked settlement,Wumbi
+KR12,Highest-ranked LGA,Kala Balge
+KR13,Borno population estimate 2015,5961054
+KR14,Borno population estimate 2023,7342382
+KR15,Estimated population growth,23.17%

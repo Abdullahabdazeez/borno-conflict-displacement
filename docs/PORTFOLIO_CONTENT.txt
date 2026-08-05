@@ -1,0 +1,41 @@
+PROJECT TITLE
+Conflict-Induced Displacement and Settlement Abandonment Detection Using Geospatial Analysis — Borno State, Nigeria (2015–2023)
+
+PROJECT SUMMARY
+This project developed a multi-stage geospatial framework for detecting settlement contraction and potential abandonment in conflict-affected Borno State. The analysis screened 2,455 settlements across 27 LGAs and integrated WorldPop population estimates, built-up-area change, Landsat RGB imagery, NDVI, NDBI and structured manual adjudication.
+
+PROBLEM STATEMENT
+Conventional field monitoring of conflict-affected settlements in Borno State is constrained by insecurity, restricted access, incomplete records and the large geographic extent of the affected area. A transparent geospatial method was required to identify settlements showing persistent physical contraction and distinguish probable abandonment from stability, uncertainty and reconstruction.
+
+METHODOLOGY
+1. Harmonised 2,455 settlement locations across all 27 Borno LGAs.
+2. Integrated WorldPop population estimates for 2015 and 2023.
+3. Calculated population and built-up-area change indicators.
+4. Developed a four-indicator settlement-change typology.
+5. Selected 13 candidate settlements for detailed validation.
+6. Prepared 2015 and 2023 Landsat image pairs.
+7. Compared RGB, NDVI and NDBI evidence.
+8. Conducted structured manual adjudication.
+9. Produced final classifications, evidence rankings, maps and publication outputs.
+
+KEY RESULTS
+- Settlements screened: 2,455
+- LGAs covered: 27
+- Detailed validation cases: 13
+- Validation LGAs: 6
+- Probable abandonment: 5
+- Possible abandonment: 1
+- Uncertain: 4
+- Not supported: 2
+- Reconstruction or reoccupation: 1
+- Confirmed abandonment: 0
+- Highest-ranked settlement: Wumbi, Kala Balge LGA
+- Population estimate increased from 5,961,054 in 2015 to 7,342,382 in 2023.
+- Mitile was statistically supported but not corroborated by Landsat spectral evidence.
+- Mairamri showed reconstruction or reoccupation rather than abandonment.
+
+TOOLS AND SKILLS
+Python, GeoPandas, Pandas, Rasterio, Landsat remote sensing, WorldPop, NDVI, NDBI, settlement-level change detection, spatial joins, cartography, evidence integration, uncertainty assessment, technical reporting and portfolio communication.
+
+CONCLUSION
+The project demonstrated that settlement abandonment should not be inferred from a single indicator. Combining demographic, built-up, spectral and manual evidence produced a more cautious and defensible classification framework for humanitarian assessment and spatial planning.

@@ -1,0 +1,1 @@
+The notebook reviews the final published settlement, decision-distribution and LGA result tables. It does not recreate the full remote-sensing production workflow contained in the master project archive.

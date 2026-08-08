@@ -1,0 +1,6 @@
+metric,value,interpretation
+Statewide settlements evaluated,2455,GeoNames settlement universe evaluated across Borno State
+Detailed validation cases,13,Locations retained for detailed multi-indicator interpretation
+Physical-demographic contraction cases,3,Built-signal decline corroborated by modelled population decline
+Population-contradicted decline/change signals,7,Physical/activity decline signals occur despite stable or increasing modelled population
+Confirmed abandoned settlements,0,Available datasets do not directly establish settlement abandonment

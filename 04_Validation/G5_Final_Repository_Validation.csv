@@ -1,0 +1,39 @@
+check,passed
+Directory exists: 01_Maps,True
+Directory exists: 02_Charts,True
+Directory exists: 03_Data,True
+Directory exists: 04_Validation,True
+Directory exists: 05_Documentation,True
+Directory exists: 06_Project_Board,True
+Directory exists: 07_Report,True
+Directory exists: 08_Scripts,True
+Required file exists: README.md,True
+Required file exists: Repository_Asset_Manifest.csv,True
+Required file exists: 01_Maps/01_Validated_Settlement_Change_Classification.png,True
+Required file exists: 01_Maps/02_Final13_Priority_Ranking.png,True
+Required file exists: 01_Maps/03_Population_Evidence_for_Settlement_Change.png,True
+Required file exists: 01_Maps/04_LGA_Detailed_Case_Concentration.png,True
+Required file exists: 02_Charts/01_Validated_Class_Distribution.png,True
+Required file exists: 02_Charts/02_Final13_Evidence_Support_Ranking.png,True
+Required file exists: 02_Charts/03_Final13_Evidence_Profile.png,True
+Required file exists: 02_Charts/04_Population_Interpretation_Distribution.png,True
+Required file exists: 03_Data/Borno_FINAL_VALIDATED_Settlement_Register.csv,True
+Required file exists: 03_Data/Borno_FINAL_VALIDATED_Project_Findings.csv,True
+Required file exists: 03_Data/Borno_FINAL_VALIDATED_13_Cases.gpkg,True
+Required file exists: 05_Documentation/methodology.md,True
+Required file exists: 05_Documentation/data_sources.md,True
+Required file exists: 05_Documentation/limitations.md,True
+Required file exists: 06_Project_Board/Borno_FINAL_VALIDATED_Project_Board.png,True
+Required file exists: 08_Scripts/README.md,True
+Validated technical report included,True
+No abandonment-framed technical report included,True
+README has zero broken local links,True
+README contains no unsupported abandonment claim,True
+README states zero confirmed abandoned settlements,True
+README contains no reviewer-facing language,True
+No superseded abandonment-framed files included,True
+No empty/tiny repository files,True
+Exactly 4 final maps,True
+Exactly 4 final charts,True
+At least 3 final data files,True
+At least 3 documentation files,True

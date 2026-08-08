@@ -1,125 +1,278 @@
-# Conflict-Induced Displacement and Settlement Abandonment Detection — Borno State, Nigeria
+# Conflict-Induced Displacement and Settlement Change in Borno State, Nigeria (2015–2023)
 
-**An integrated geospatial assessment of settlement decline, displacement pressure and evidence of abandonment across Borno State between 2015 and 2023.**
+![Final Project Board](06_Project_Board/Borno_FINAL_VALIDATED_Project_Board.png)
 
-<p align="center">
-  <img src="assets/project-cover.png" alt="Final settlement evidence classification across Borno State" width="100%">
-</p>
+## Overview
 
-Conflict and displacement can alter settlement systems in ways that are difficult to measure from a single dataset. Population estimates may show decline, satellite imagery may reveal physical change, and conflict records may indicate exposure, but none of these indicators independently confirms abandonment. This project therefore used a multi-indicator evidence framework to screen **2,455 settlements across all 27 LGAs of Borno State**, then subjected a focused set of candidate settlements to detailed validation and manual adjudication.
+This project examines settlement change across Borno State between 2015 and 2023. I used several geospatial datasets together because no single indicator can reliably show whether a settlement has contracted, remained active or been abandoned.
 
-The assessment combined population change, built-up change, vegetation and built-up spectral indicators, settlement-level conflict exposure, satellite comparison and contextual review. Thirteen candidate settlements across six LGAs were examined in detail. The final evidence classification identified **five probable abandonment cases**, **one possible abandonment case**, **four uncertain cases**, **two cases not supported as abandonment**, and **one case showing reconstruction or reoccupation**. No settlement was classified as confirmed abandonment.
+The analysis screened **2,455 settlements across all 27 LGAs in Borno State**. I combined built-up change, night-time lights, conflict exposure and modelled population change, then examined **13 settlements in detail**.
 
-The results demonstrate why conflict-related settlement change must be interpreted cautiously. Statistical decline alone did not always agree with final visual and contextual evidence. The final classification therefore reflects convergence across multiple indicators rather than a single threshold or automated label.
+The final interpretation identified **3 priority contraction cases**, **7 priority change-signal cases**, and **3 retained cases where population evidence was insufficient**. None of the 13 cases is presented as a confirmed abandoned settlement.
 
-| Project detail | Information |
+> **Main point:** settlement decline signals are not the same as proof of abandonment. Population evidence changed the interpretation of several locations and was therefore treated as a key corroborating or limiting indicator.
+
+---
+
+## Research Question
+
+**Where do multiple geospatial indicators point to meaningful settlement contraction or change across conflict-affected Borno State?**
+
+---
+
+## Study Area
+
+The study covers **Borno State, north-eastern Nigeria**, including all **27 Local Government Areas**. The settlement screening included **2,455 populated places**.
+
+The 13 detailed validation cases are located in:
+
+- Abadam
+- Bama
+- Gwoza
+- Kala Balge
+- Konduga
+- Ngala
+
+---
+
+## Why This Matters
+
+Conflict can affect settlements in different ways. People may leave, return or relocate. Buildings may be damaged or removed. Night-time activity may reduce. Some settlements may also recover while others continue to decline.
+
+Because these processes do not always move together, I avoided using a single dataset as proof of settlement abandonment. Instead, I compared different indicators and used the level of agreement between them to guide the final interpretation.
+
+---
+
+## Data Sources
+
+| Dataset | Main Use |
 |---|---|
-| **Study area** | Borno State, Nigeria |
-| **Study period** | 2015–2023 |
-| **Settlements screened** | 2,455 |
-| **LGAs covered** | 27 |
-| **Detailed validation cases** | 13 settlements across 6 LGAs |
-| **Primary methods** | Population change, built-up change, spectral analysis, conflict exposure, visual validation and manual adjudication |
-| **Final evidence classes** | Probable, possible, uncertain, not supported, reconstruction/reoccupation |
+| GeoNames populated places | Settlement locations and statewide screening |
+| ACLED | Conflict exposure around settlements |
+| VIIRS night-time lights | Change in detected night-time activity |
+| Dynamic World / satellite-derived built-up outputs | Built-signal change |
+| WorldPop | Modelled population change |
+| Borno administrative boundaries | State and LGA spatial context |
 
-## Key findings
+More detail is available in [`05_Documentation/data_sources.md`](05_Documentation/data_sources.md).
 
-- **5 settlements** were classified as probable abandonment.
-- **1 settlement** was classified as possible abandonment.
-- **4 settlements** remained uncertain after manual adjudication.
-- **2 settlements** were not supported as abandonment cases.
-- **1 settlement** showed evidence of reconstruction or reoccupation.
-- **0 settlements** were classified as confirmed abandonment.
-- **Wumbi** was the highest-ranked settlement in the final evidence scoring.
-- **Kala Balge** was the highest-ranked LGA.
-- Borno's estimated population increased from **5,961,054 in 2015** to **7,342,382 in 2023**, a reported increase of **23.17%** at the statewide scale.
-- Gwoza contained the largest number of detailed validation cases, while Bama and Kala Balge contained multiple probable-abandonment cases.
+---
 
-## Evidence pathway
+## Methodology
 
-The analytical process moved from broad screening to increasingly detailed validation:
+The workflow followed five main steps:
 
-1. Screened 2,455 populated places.
-2. Integrated settlement-level conflict exposure and displacement context.
-3. Measured population and built-environment change.
-4. Evaluated NDVI, NDBI and Landsat visual evidence.
-5. Assessed temporal consistency and multi-indicator convergence.
-6. Constructed a four-indicator settlement typology.
-7. Reviewed candidate settlements through manual adjudication.
-8. Assigned final evidence classes and confidence levels.
-9. Summarised findings by settlement and LGA.
+1. **Statewide settlement screening**  
+   I organised evidence for 2,455 settlements across Borno State.
 
-![Evidence pathway](outputs/figures/figure_02_evidence_pathway.png)
+2. **Built-up change assessment**  
+   I examined settlement-level changes in the detected built signal between 2015 and 2023.
 
-## Selected outputs
+3. **Night-time light assessment**  
+   I tested whether settlements showed temporally consistent decline in VIIRS night-time lights.
 
-### Ranked settlement evidence scores
+4. **Conflict and population context**  
+   I compared settlement-level conflict exposure with modelled population change.
 
-![Ranked settlement evidence](outputs/maps/01_ranked_settlement_evidence_scores.png)
+5. **Multi-indicator validation**  
+   I reviewed the evidence together and retained 13 locations for detailed interpretation.
 
-### Final settlement evidence classification
+The final classification was based on how the indicators agreed or disagreed, rather than on a single threshold.
 
-![Final classification](outputs/maps/02_final_settlement_evidence_classification.png)
+See [`05_Documentation/methodology.md`](05_Documentation/methodology.md) for the full summary.
 
-### LGA concentration of potential abandonment
+---
 
-![LGA concentration](outputs/maps/03_lga_potential_abandonment_concentration.png)
+## Key Findings
 
-### Statistical versus final evidence
+### 1. Three settlements showed the strongest contraction evidence
 
-![Statistical versus final evidence](outputs/maps/04_statistical_vs_final_evidence.png)
+The strongest cases were:
 
-### Final decision distribution
+| Rank | Settlement | LGA | Evidence support score |
+|---:|---|---|---:|
+| 1 | Mitile | Abadam | 7 |
+| 2 | Johana | Kala Balge | 6 |
+| 3 | Wumbi | Kala Balge | 6 |
 
-![Decision distribution](outputs/figures/figure_01_final_decision_distribution.png)
+These locations combined strong physical decline signals with modelled population decline. They were therefore retained as **priority contraction cases**.
 
-## Interpretation
+![Validated Settlement-Change Classification](01_Maps/01_Validated_Settlement_Change_Classification.png)
 
-The project does not claim that remotely sensed decline automatically proves settlement abandonment. Confirmed abandonment requires stronger evidence than population loss, reduced night-time activity or spectral change alone. The final decisions therefore distinguish between probable, possible, uncertain and unsupported cases, while also recognising reconstruction or reoccupation.
+---
 
-The statewide population increase does not contradict local settlement decline. State-level population growth can occur alongside displacement, urban concentration, camp populations, return movements and decline in individual settlements.
+### 2. Seven settlements showed important change signals, but population evidence limited the interpretation
 
-These outputs are planning and humanitarian decision-support evidence. They should be combined with field verification, local knowledge, security assessments and updated displacement records before operational use.
+The seven priority change-signal cases were:
 
-## Repository structure
+- Dipchari
+- Pulka
+- Agumbagwa Clan
+- Limila
+- Mairamri
+- Ngaiwa
+- Wala
+
+Several of these locations showed strong built-up, night-light or conflict-related evidence while modelled population remained stable or increased.
+
+For that reason, I did **not** describe them as abandoned settlements.
+
+![Population Evidence for Settlement Change](01_Maps/03_Population_Evidence_for_Settlement_Change.png)
+
+---
+
+### 3. Three cases retained change signals but lacked sufficient population evidence
+
+The three retained cases were:
+
+- Disa
+- Kiva
+- Sigel
+
+These locations remained useful for follow-up, but the available population evidence was not strong enough to support a more confident demographic interpretation.
+
+---
+
+### 4. Population evidence materially changed the final interpretation
+
+Across the 13 detailed cases:
+
+- **3** showed population decline
+- **4** showed population increase
+- **3** were relatively stable
+- **3** had insufficient population evidence
+
+This is why the project separates **settlement contraction/change evidence** from **confirmed abandonment**.
+
+![Population Interpretation Distribution](02_Charts/04_Population_Interpretation_Distribution.png)
+
+---
+
+## Evidence Profile
+
+The final 13 cases were compared using four main evidence groups:
+
+- built-signal decline
+- night-time light decline
+- conflict exposure
+- population decline
+
+![Final-13 Evidence Profile](02_Charts/03_Final13_Evidence_Profile.png)
+
+The evidence profile shows that the detailed cases do not all represent the same process. Some indicators agree strongly, while others point in different directions.
+
+---
+
+## Settlement Priority
+
+The support score helps organise the final cases according to the amount of validated evidence available.
+
+It is **not a probability of abandonment**.
+
+![Evidence Support Ranking](02_Charts/02_Final13_Evidence_Support_Ranking.png)
+
+---
+
+## Spatial Pattern
+
+The detailed cases are concentrated mainly in eastern and south-eastern Borno, particularly in **Gwoza, Kala Balge and Bama**.
+
+![LGA Detailed Case Concentration](01_Maps/04_LGA_Detailed_Case_Concentration.png)
+
+---
+
+## Final Interpretation
+
+The project produced three broad public-facing groups:
+
+| Group | Number of cases | Interpretation |
+|---|---:|---|
+| Priority contraction | 3 | Strong physical-demographic contraction evidence |
+| Priority change signal | 7 | Important change signals, but population evidence does not support a simple abandonment interpretation |
+| Retained change signal | 3 | Change signals retained, but population evidence is insufficient |
+
+**Confirmed abandoned settlements: 0.**
+
+This project therefore identifies places that deserve closer investigation; it does not claim to prove abandonment from satellite data alone.
+
+---
+
+## Planning and Research Use
+
+The results can support:
+
+- targeted field verification
+- high-resolution imagery review
+- conflict-sensitive settlement monitoring
+- prioritisation of locations for further demographic investigation
+- comparison with displacement records and local knowledge
+- future monitoring of decline, persistence or recovery
+
+---
+
+## Limitations
+
+The main limitations are:
+
+- WorldPop is a modelled population surface, not a direct settlement census.
+- Night-time lights are affected by electricity access, settlement size and sensor characteristics.
+- Built-up change does not directly show whether buildings are occupied.
+- Conflict exposure does not prove that a specific settlement change was caused by a specific event.
+- The 13 detailed cases are not a statistically representative sample of all settlements in Borno State.
+- Direct field evidence is still needed before confirming settlement abandonment.
+
+See [`05_Documentation/limitations.md`](05_Documentation/limitations.md).
+
+---
+
+## Maps
+
+| Map | Description |
+|---|---|
+| [`01`](01_Maps/01_Validated_Settlement_Change_Classification.png) | Final validated settlement-change classification |
+| [`02`](01_Maps/02_Final13_Priority_Ranking.png) | Priority ranking of the 13 detailed cases |
+| [`03`](01_Maps/03_Population_Evidence_for_Settlement_Change.png) | Population evidence used to support or limit interpretation |
+| [`04`](01_Maps/04_LGA_Detailed_Case_Concentration.png) | LGA concentration of detailed cases |
+
+---
+
+## Charts
+
+| Chart | Description |
+|---|---|
+| [`01`](02_Charts/01_Validated_Class_Distribution.png) | Final class distribution |
+| [`02`](02_Charts/02_Final13_Evidence_Support_Ranking.png) | Evidence-support ranking |
+| [`03`](02_Charts/03_Final13_Evidence_Profile.png) | Multi-indicator evidence profile |
+| [`04`](02_Charts/04_Population_Interpretation_Distribution.png) | Population interpretation distribution |
+
+---
+
+## Repository Structure
 
 ```text
-.
-├── assets/                  # Project cover and social preview
-├── data/processed/tables/   # Settlement, LGA and validation results
-├── docs/                    # Methods, limitations, summary and closure notes
-├── notebooks/               # Results-review notebook
-├── outputs/
-│   ├── maps/                # Four final maps
-│   └── figures/             # Five publication figures
-├── scripts/python/          # Result-reproduction script
-├── validation/              # Selected validation registers and repository checks
-├── CITATION.cff
-├── LICENSE
+Borno_GitHub_COMPLETE_VALIDATED/
 ├── README.md
-├── project.json
-└── requirements.txt
+├── Repository_Asset_Manifest.csv
+├── 01_Maps/
+├── 02_Charts/
+├── 03_Data/
+├── 04_Validation/
+├── 05_Documentation/
+├── 06_Project_Board/
+├── 07_Report/
+└── 08_Scripts/
 ```
 
-## Reproducibility
+---
 
-This repository publishes the final analytical evidence, result tables, maps and validation records. The master project archive contains the complete staged production history and intermediate remote-sensing assets. The public repository focuses on the final, reviewable evidence package.
+## Tools
 
-```bash
-pip install -r requirements.txt
-python scripts/python/reproduce_summary.py
-python validation/validate_repository.py
-```
+Python, GeoPandas, Rasterio, Google Earth Engine, VIIRS, Dynamic World, WorldPop, ACLED, QGIS and ArcGIS.
+
+---
 
 ## Author
 
 **Abdullah Abdazeez Ayomide**  
-Geo-spatial Planner | GIS & Remote Sensing Analyst
+Geo-spatial Planner | GIS & Remote Sensing Analyst | Environmental & Urban Planning Researcher
 
-- [GitHub](https://github.com/Abdullahabdazeez)
-- [LinkedIn](https://ng.linkedin.com/in/abdazeez-abdullah-4b814719a)
-- [Email](mailto:abdazeezabdullah1@gmail.com)
-
-## Citation and licence
-
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Code and original documentation are released under the MIT License. External datasets retain their original licences and access conditions.

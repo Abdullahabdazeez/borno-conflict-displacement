@@ -1,0 +1,12 @@
+check,passed
+README created,True
+Methodology documentation created,True
+Data-source documentation created,True
+Limitations documentation created,True
+"README states 2,455 settlements",True
+README states 13 detailed cases,True
+README states 3 priority contraction cases,True
+README states 7 priority change-signal cases,True
+README states zero confirmed abandoned settlements,True
+README avoids reviewer-facing language,True
+README project-board link present,True

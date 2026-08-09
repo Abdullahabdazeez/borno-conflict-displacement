@@ -10,7 +10,7 @@ The analysis screened **2,455 settlements across all 27 LGAs in Borno State**. I
 
 The final interpretation identified **3 priority contraction cases**, **7 priority change-signal cases**, and **3 retained cases where population evidence was insufficient**. None of the 13 cases is presented as a confirmed abandoned settlement.
 
-> **Main point:** settlement decline signals are not the same as proof of abandonment. Population evidence changed the interpretation of several locations and was therefore treated as a key corroborating or limiting indicator.
+
 
 ---
 

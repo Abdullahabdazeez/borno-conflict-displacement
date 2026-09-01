@@ -26,11 +26,11 @@ jobs:
           failures = []
           required = [
               'README.md', 'LICENSE', 'CITATION.cff', 'project.json',
-              '05_Documentation/PROJECT_REPORT.md',
-              '07_Report/Borno_Settlement_Change_FINAL_VALIDATED_Technical_Report.pdf',
-              '06_Project_Board/Borno_FINAL_VALIDATED_Project_Board.png',
-              '01_Maps/01_Validated_Settlement_Change_Classification.png',
-              '02_Charts/03_Final13_Evidence_Profile.png'
+              'docs/PROJECT_REPORT.md',
+              'reports/Borno_Settlement_Change_FINAL_VALIDATED_Technical_Report.pdf',
+              'assets/project-board/Borno_FINAL_VALIDATED_Project_Board.png',
+              'assets/maps/01_Validated_Settlement_Change_Classification.png',
+              'assets/charts/03_Final13_Evidence_Profile.png'
           ]
 
           for rel in required:

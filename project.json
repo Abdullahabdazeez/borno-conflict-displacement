@@ -11,6 +11,5 @@
   "priority_change_signal_cases": 7,
   "retained_change_signal_cases": 3,
   "confirmed_abandoned_settlements": 0,
-  "status": "final_validated",
-  "visibility": "private"
+  "status": "final_validated"
 }

@@ -6,8 +6,8 @@ The analysis was developed through a staged geospatial workflow using Python, Ge
 
 The complete analytical method is documented in:
 
-- `../05_Documentation/methodology.md`
-- `../05_Documentation/data_sources.md`
-- `../05_Documentation/limitations.md`
+- `../docs/METHODOLOGY.md`
+- `../docs/DATA_SOURCES.md`
+- `../docs/LIMITATIONS.md`
 
 Only validated results are included in the repository.

@@ -57,7 +57,7 @@ A longer time series could also show whether the current contraction signals are
 
 ## Main outputs
 
-Maps are in [`../01_Maps`](../01_Maps/), charts in [`../02_Charts`](../02_Charts/), final data in [`../03_Data`](../03_Data/) and validation material in [`../04_Validation`](../04_Validation/).
+Maps are in [`../assets/maps`](../assets/maps/), charts in [`../assets/charts`](../assets/charts/) and final data in [`../data`](../data/).
 
 ## Final note
 

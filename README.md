@@ -1,7 +1,7 @@
 # Settlement Change in Conflict-Affected Borno State, Nigeria, 2015–2023
 
 <p align="center">
-  <img src="06_Project_Board/Borno_FINAL_VALIDATED_Project_Board.png" alt="Borno settlement-change project board" width="100%">
+  <img src="assets/project-board/Borno_FINAL_VALIDATED_Project_Board.png" alt="Borno settlement-change project board" width="100%">
 </p>
 
 ## What this project asks
@@ -24,7 +24,7 @@ The most important lesson from the project is that a settlement can show strong 
 The three strongest contraction cases are **Mitile, Johana and Wumbi**.
 
 <p align="center">
-  <img src="01_Maps/01_Validated_Settlement_Change_Classification.png" alt="Validated settlement-change classification in Borno State" width="100%">
+  <img src="assets/maps/01_Validated_Settlement_Change_Classification.png" alt="Validated settlement-change classification in Borno State" width="100%">
 </p>
 
 ## Why I used several indicators
@@ -44,7 +44,7 @@ Using several indicators together does not remove uncertainty, but it makes it m
 | WorldPop | Modelled population change |
 | Borno administrative boundaries | State and LGA context |
 
-More detail is available in [`05_Documentation/data_sources.md`](05_Documentation/data_sources.md).
+More detail is available in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## How I built the analysis
 
@@ -57,7 +57,7 @@ More detail is available in [`05_Documentation/data_sources.md`](05_Documentatio
 
 The final classification is based on the pattern of agreement and disagreement across the evidence, not on one simple threshold.
 
-Full method: [`05_Documentation/methodology.md`](05_Documentation/methodology.md).
+Full method: [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md).
 
 ## The strongest contraction cases
 
@@ -72,7 +72,7 @@ These three locations combine strong physical decline signals with modelled popu
 ## Why population evidence changed the conclusion
 
 <p align="center">
-  <img src="01_Maps/03_Population_Evidence_for_Settlement_Change.png" alt="Population evidence used in the Borno settlement-change interpretation" width="100%">
+  <img src="assets/maps/03_Population_Evidence_for_Settlement_Change.png" alt="Population evidence used in the Borno settlement-change interpretation" width="100%">
 </p>
 
 Across the 13 detailed cases:
@@ -85,13 +85,13 @@ Across the 13 detailed cases:
 That pattern makes a blanket abandonment label difficult to defend.
 
 <p align="center">
-  <img src="02_Charts/04_Population_Interpretation_Distribution.png" alt="Population interpretation distribution for the 13 detailed cases" width="85%">
+  <img src="assets/charts/04_Population_Interpretation_Distribution.png" alt="Population interpretation distribution for the 13 detailed cases" width="85%">
 </p>
 
 ## Evidence profile
 
 <p align="center">
-  <img src="02_Charts/03_Final13_Evidence_Profile.png" alt="Evidence profile for the final 13 Borno cases" width="100%">
+  <img src="assets/charts/03_Final13_Evidence_Profile.png" alt="Evidence profile for the final 13 Borno cases" width="100%">
 </p>
 
 The chart makes the disagreement between indicators visible. Some cases have strong support across several evidence groups, while others are mixed.
@@ -101,7 +101,7 @@ The support score is a way to organise the evidence. It is **not a probability o
 ## Where the detailed cases are concentrated
 
 <p align="center">
-  <img src="01_Maps/04_LGA_Detailed_Case_Concentration.png" alt="LGA concentration of detailed settlement-change cases in Borno" width="100%">
+  <img src="assets/maps/04_LGA_Detailed_Case_Concentration.png" alt="LGA concentration of detailed settlement-change cases in Borno" width="100%">
 </p>
 
 The detailed cases are concentrated mainly in eastern and south-eastern Borno, especially around **Gwoza, Kala Balge and Bama**.
@@ -118,16 +118,16 @@ WorldPop is a modelled population surface rather than a settlement census. Night
 
 The 13 detailed cases are also not a statistically representative sample of all Borno settlements.
 
-See [`05_Documentation/limitations.md`](05_Documentation/limitations.md).
+See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md).
 
 ## Outputs
 
-- [`01_Maps`](01_Maps/) — final maps
-- [`02_Charts`](02_Charts/) — analytical charts
-- [`03_Data`](03_Data/) — final data tables
-- [`04_Validation`](04_Validation/) — validation records
-- [`05_Documentation`](05_Documentation/) — method, data and limitations
-- [`07_Report`](07_Report/) — final report
+- [`assets/maps`](assets/maps/) — final maps
+- [`assets/charts`](assets/charts/) — analytical charts
+- [`data`](data/) — final data tables
+- [`docs`](docs/) — method, data and limitations
+- [`reports`](reports/) — final report
+- [`scripts`](scripts/) — analysis workflow notes
 
 ## Tools
 

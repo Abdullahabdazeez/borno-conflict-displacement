@@ -44,7 +44,7 @@ jobs:
               failures.append(f'Invalid project.json: {exc}')
 
           readme = (root / 'README.md').read_text(encoding='utf-8', errors='replace')
-          for term in ['2,455', '3', '7', '0 confirmed abandoned']:
+          for term in ['2,455', 'Priority contraction', 'Priority change signal', 'Confirmed abandoned settlements']:
               if term.lower() not in readme.lower():
                   failures.append(f'README missing expected final content: {term}')
 
